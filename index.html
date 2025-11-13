@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    let howard = "https://avatars.githubusercontent.com/u/16825191?v=4"
+
+function showhoward() {
+  document.getElementById('placeholder').innerHTML = "<img src='" + howard + "' alt='Howard'>"
+}
+
+function clearscreen() {
+  document.getElementById('placeholder').innerHTML = ""
+}
+  </script>
+  <button onclick="showhoward()">Show Howard</button>
+  <div id="placeholder"></div>
+  <button onclick="clearscreen()">Clear Screen</button>
+  
+</body>
+</html>
